@@ -1,0 +1,12 @@
+# Site settings
+title: Michael Feng 的个人Blog
+email: michaelfeng.smart@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a game designer for mobile games who is learning ruby :). Hope that one day in the future i can make something i always want.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://smartmichael.com" # the base hostname & protocol for your site
+twitter_username: SmartMichael
+github_username:  Michaelfeng
+
+# Build settings
+markdown: kramdown

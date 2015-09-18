@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "Welcome to SmartMichael.com!"
+date:   2015-09-18 00:09:01
+categories: First Step
+---
+我刚刚用jekyll 生成了一个静态博客。吊炸了哈哈哈哈。
+
+下面是一段[ruby-lang.org](http://ruby-lang.org)上的教学代码，抄过来看看哈哈哈
+
+{% highlight ruby %}
+#!/usr/bin/env ruby
+
+class MegaGreeter
+	attr_accessor :names
+
+	# Craete the object
+	def initialize(names = "World")
+		@names = names
+	end
+
+	# say hi to everyone
+	def say_hi
+		if @names.nil?
+			puts "..."
+		elsif @names.respond_to?("each")
+			# @names is a list of some kind, iterate!
+			@names.each do |name|
+			puts "Hello #{name}!"
+			end
+		else
+			puts "Hello #{@names}!"
+		end
+	end
+	
+	# say bye to everybody
+	def say_bye
+		if @names.nil?
+			puts "..."
+		elsif @names.respond_to?("join")
+			#join the list elements with commas
+			puts "Goodbye #{@names.join(", ")}. Come back soon!"
+					
+		else
+			puts "Goodbye #{@names}. Come back soon!"
+		end
+	end
+end
+
+if __FILE__ == $0
+	mg = MegaGreeter.new
+	mg.say_hi
+	mg.say_bye
+
+	# Change name to be "Zeke"
+	mg.names = "Zeke"
+	mg.say_hi
+	mg.say_bye
+
+	# Change the name to an array of names
+	mg.names = ["Albert", "Brenda", "Charles", "Dave", "Engelbert"]
+	mg.say_hi
+	mg.say_bye
+
+	# Change to nil
+	mg.names = nil 
+	mg.say_hi
+	mg.say_bye
+end
+{% endhighlight %}
+
+简直吊炸了哈哈哈哈
+
+
