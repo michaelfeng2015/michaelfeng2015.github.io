@@ -4,8 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+### 个人简介
+---------------
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+![pic_of_my_self]({{ site.url }}/assets/IMG_0041.JPG)
+
+* 学技术啦啦啦。
+* 成长中啦啦啦。
+
+
+	属性|数值
+	---|---
+	策划功力|5
+	技术功力|-1000000000
+	审美能力|-100
+	综合|-2B
+	
+	
+个人微博: <http://weibo.com/kekei>
+
+小站（施工中）[http://smartmichael.com](http://smartmichael.com)

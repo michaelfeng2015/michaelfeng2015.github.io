@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to SmartMichael.com!"
+title:  "学习ruby和jekyll第二天!"
 date:   2015-09-18 00:09:01
 categories: First Step
 ---
