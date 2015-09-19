@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "学习ruby和jekyll第二天!"
+title:  "迈出第一步!"
 date:   2015-09-18 00:09:01
 categories: First Step
 ---
